@@ -21,19 +21,19 @@ console.log(elencoEmail);
 // - chiedere all'utente di inserire la propria mail;
 //     - inserire la mail attraverso un prompt;
 let userEmail = prompt("Inserire la proprio mail");
-let foundEmail = 0;
+let foundEmail = 0; //variabile di controllo
 
 // - controllare se la mail è presente all'interno dell'array;
 for (let i = 0; i < elencoEmail.length; i++) {
 
-    if (elencoEmail[i] == userEmail) {
+   if (elencoEmail[i] == userEmail) {
         foundEmail = 1;
         alert("Email già presente all'indice "+ i + ". Inserirne un'altra!");
         // break;
     }
 }
 
-if (foundEmail == 0) {
+if (foundEmail == 0) { //verifica della mail non presente nell'elenco e inserimento nell'array.
     elencoEmail.push(userEmail);
     alert("Email non trovata. Inserita nell'elenco.")
     console.log(elencoEmail);
