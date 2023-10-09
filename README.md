@@ -11,3 +11,9 @@
     - IF mail non è presente nell'array
         - inserire mail alla fine dell'array;
     - ELSE emettere un alert con richiesta di reinserire la mail.
+
+
+# DADI
+
+- generare un numero random da 1 a 6 per il giocatore; sia per il giocatore sia per il computer.
+- Stabilire il vincitore, in base a chi fa il punteggio più alto.
