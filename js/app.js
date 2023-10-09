@@ -13,6 +13,7 @@ const elencoEmail = [
     'aragorn.granpasso@granburrone.com',
     'boromir.thebest@minastirith.com',
     'legolas.biondino@bosco.com',
+    // 'frodo.baggins@contea.com', //verifica nel caso di doppia email
     'gimli.lockbearer@moria.com'
 ];
 
