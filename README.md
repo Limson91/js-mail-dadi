@@ -1,16 +1,12 @@
 # JS MAIL
 
-- definire un array di mail
-    - assegnare una variabile all'array ed elencare delle mail;
-
-- chiedere all'utente di inserire la propria mail;
-    - assegno una variabile;
-    - inserire la mail attraverso un prompt;
-
-- controllare se la mail è presente all'interno dell'array;
-    - IF mail non è presente nell'array
-        - inserire mail alla fine dell'array;
-    - ELSE emettere un alert con richiesta di reinserire la mail.
+- Chiedere all'utente di inserire la propria mail attraverso un prompt;
+- Dichiarare una variabile con un array di email;
+- Confronto della mail inserita dall'utente e array di email: se è presente stampare un console.log con 'Accesso consentito'. Se non è presente, stampare un console.log con 'Accesso negato'.
+    - Dichiarare una variabile di controllo di tipo booleano;
+    - PER OGNI email all'interno dell'array:
+        - SE currentEmail === userEmail, variabile di controllo => true;
+    - Stampa del messaggio appropriato in base al valore della variabile di controllo.
 
 
 # DADI
