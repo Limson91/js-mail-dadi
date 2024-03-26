@@ -11,5 +11,5 @@
 
 # DADI
 
-- generare un numero random da 1 a 6 per il giocatore; sia per il giocatore sia per il computer.
+- generare un numero random da 1 a 6 per il giocatore e il pc.
 - Stabilire il vincitore, in base a chi fa il punteggio più alto.
