@@ -1,5 +1,4 @@
 # JS MAIL
-
 - Chiedere all'utente di inserire la propria mail attraverso un prompt;
 - Dichiarare una variabile con un array di email;
 - Confronto della mail inserita dall'utente e array di email: se è presente stampare un console.log con 'Accesso consentito'. Se non è presente, stampare un console.log con 'Accesso negato'.
@@ -10,6 +9,5 @@
 
 
 # DADI
-
 - generare un numero random da 1 a 6 per il giocatore e il pc.
 - Stabilire il vincitore, in base a chi fa il punteggio più alto.
